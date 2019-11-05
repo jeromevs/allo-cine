@@ -1,22 +1,87 @@
-.App {
-  text-align: center;
+/* -------------Header---------------- */
+body {
+  background-color: #f2f2f2;
 }
 
-.App-logo {
-  height: 40vmin;
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+/* -------------Header---------------- */
+.header {
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  width: 100%;
+  background-color: #fecc00;
 }
 
-.App-link {
-  color: #09d3ac;
+/* -------------Hero---------------- */
+.hero {
+  display: flex;
+  background-image: url("./images/Poster.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 40vh;
+
+  justify-content: center;
+  margin: left 10px;
+  align-items: flex-end;
+  color: white;
+  font-size: 2.8rem;
+  font-weight: bolder;
+  padding-bottom: 5rem;
+}
+
+/* -------------Box---------------- */
+.box {
+  display: flex;
+  background-color: white;
+  /* border: solid black 1px; */
+  width: 80%;
+  height: 800px;
+  justify-content: center;
+  flex-direction: column;
+  margin: auto;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+/* -------------Presentation---------------- */
+.poster img {
+  /* display: flex; */
+  width: 100%;
+  /* height: 50px; */
+  /* object-fit: cover; */
+  margin: auto;
+}
+
+.poster {
+  margin: 0;
+  width: 30%;
+}
+
+.presentation {
+  display: flex;
+  justify-content: flex-start;
+  width: 80%;
+  height: 300px;
+  margin: auto;
+  margin-top: 50px;
+  margin-bottom: 0px;
+  color: gray;
+}
+
+.infos {
+  margin-left: 2rem;
+}
+
+/* -------------Presentation---------------- */
+.synopsis {
+  padding: 3rem;
+  padding-top: 0;
+}
+
+.synopsis-title {
+  font-size: 2.2rem;
+  font-weight: bold;
+}
+
+.synopsis-resume {
+  font-size: 1.2rem;
 }

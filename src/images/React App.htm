@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<!-- saved from url=(0022)http://localhost:3001/ -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+    <link rel="icon" href="http://localhost:3001/favicon.ico">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="theme-color" content="#000000">
+    <meta name="description" content="Web site created using create-react-app">
+    <link rel="apple-touch-icon" href="http://localhost:3001/logo192.png">
+    <!--
+      manifest.json provides metadata used when your web app is installed on a
+      user's mobile device or desktop. See https://developers.google.com/web/fundamentals/web-app-manifest/
+    -->
+    <link rel="manifest" href="http://localhost:3001/manifest.json">
+    <!--
+      Notice the use of  in the tags above.
+      It will be replaced with the URL of the `public` folder during the build.
+      Only files inside the `public` folder can be referenced from the HTML.
+
+      Unlike "/favicon.ico" or "favicon.ico", "/favicon.ico" will
+      work correctly both with client-side routing and a non-root public URL.
+      Learn how to configure a non-root public URL by running `npm run build`.
+    -->
+    <title>React App</title>
+  <style>body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+</style><style>/* -------------Header---------------- */
+body {
+  background-color: #f2f2f2;
+}
+
+/* -------------Header---------------- */
+.header {
+  display: flex;
+  width: 100%;
+  background-color: #fecc00;
+}
+
+/* -------------Hero---------------- */
+.hero {
+  display: flex;
+  background-image: url(/static/media/Poster.3b323dc1.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 40vh;
+
+  justify-content: center;
+  margin: left 10px;
+  align-items: flex-end;
+  color: white;
+  font-size: 2.8rem;
+  font-weight: bolder;
+  padding-bottom: 5rem;
+}
+
+/* -------------Box---------------- */
+.box {
+  display: flex;
+  background-color: white;
+  /* border: solid black 1px; */
+  width: 80%;
+  height: 800px;
+  justify-content: center;
+  flex-direction: column;
+  margin: auto;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+/* -------------Presentation---------------- */
+.poster img {
+  /* display: flex; */
+  width: 100%;
+  /* height: 50px; */
+  /* object-fit: cover; */
+  margin: auto;
+}
+
+.poster {
+  margin: 0;
+  width: 30%;
+}
+
+.presentation {
+  display: flex;
+  justify-content: flex-start;
+  width: 80%;
+  height: 300px;
+  margin: auto;
+  margin-top: 50px;
+  margin-bottom: 0px;
+  color: gray;
+}
+
+.infos {
+  margin-left: 2rem;
+}
+
+/* -------------Presentation---------------- */
+.synopsis {
+  padding: 3rem;
+  padding-top: 0;
+}
+
+.synopsis-title {
+  font-size: 2.2rem;
+  font-weight: bold;
+}
+
+.synopsis-resume {
+  font-size: 1.2rem;
+}
+</style><script charset="utf-8" src="./React App_files/main.1027e629598310c6ce5a.hot-update.js"></script><script charset="utf-8" src="./React App_files/main.1e4867dad78a16526cdb.hot-update.js"></script><script charset="utf-8" src="./React App_files/main.d35243feb12ebd6cd6d1.hot-update.js"></script><script charset="utf-8" src="./React App_files/main.55966fe4513446e08762.hot-update.js"></script><script charset="utf-8" src="./React App_files/main.2a363cbdcc5a140d6248.hot-update.js"></script><script charset="utf-8" src="./React App_files/main.e5ef27e047cdca58a4f5.hot-update.js"></script><script charset="utf-8" src="./React App_files/main.4e32877ea7a0a8d45d47.hot-update.js"></script><script charset="utf-8" src="./React App_files/main.f9865a5f855b8b913079.hot-update.js"></script><script charset="utf-8" src="./React App_files/main.f54f69a39793293454e9.hot-update.js"></script><script charset="utf-8" src="./React App_files/main.b26838007da4a2158497.hot-update.js"></script><script charset="utf-8" src="./React App_files/main.1a03aefcf34f4c9987f3.hot-update.js"></script><script charset="utf-8" src="./React App_files/main.59e9980667517accb537.hot-update.js"></script><script charset="utf-8" src="./React App_files/main.8db755b882c641921a47.hot-update.js"></script><script charset="utf-8" src="./React App_files/main.370a75e7021f863b10ca.hot-update.js"></script><script charset="utf-8" src="./React App_files/main.6099a06c3b5f1aaa789f.hot-update.js"></script><script charset="utf-8" src="./React App_files/main.476fab99fe5c79d3ffc3.hot-update.js"></script><script charset="utf-8" src="./React App_files/main.e4f77f0e359f61b8f4d3.hot-update.js"></script></head>
+  <body cz-shortcut-listen="true">
+    <noscript>You need to enable JavaScript to run this app.</noscript>
+    <div id="root"><section class="header"><div class="image-container"><img src="./React App_files/Logo.d4818b4d.png" alt="logo"></div></section><div class="hero">2001 : L'ODYSSEE DE L'ESPACE</div><section class="box"><section class="presentation"><div class="poster"><img src="./React App_files/Affiche.c962786c.jpg" alt="poster"></div><div class="infos"><p class="date">Date de sortie <a href="http://localhost:3001/">27 septembre 1968</a>(2h 21min)</p><p class="director">De <a href="http://localhost:3001/">Stanley Kubrick</a></p><p class="actors">Avec <a href="http://localhost:3001/">Keir Dullea, Gary Lockwood, William Sylvester</a></p><p class="genre">Genre <a href="http://localhost:3001/">Science Fiction</a></p><p class="country">Nationalites <a href="http://localhost:3001/">Americain, Britannique</a></p></div></section><section class="synopsis"><h1 class="synopsis-title">SYNOPSIS ET DETAILS</h1><p class="synopsis-resume"> A l'aube de l'Humanité, dans le désert africain, une tribu de primates subit les assauts répétés d'une bande rivale, qui lui dispute un point d'eau. La découverte d'un monolithe noir inspire au chef des singes assiégés un geste inédit et décisif. Brandissant un os, il passe à l'attaque et massacre ses adversaires. Le premier instrument est né. En 2001, quatre millions d'années plus tard, un vaisseau spatial évolue en orbite lunaire au rythme langoureux du Beau Danube Bleu. A son bord, le Dr. Heywood Floyd enquête secrètement sur la découverte d'un monolithe noir qui émet d'étranges signaux vers Jupiter. Dix-huit mois plus tard, les astronautes David Bowman et Frank Poole font route vers Jupiter à bord du Discovery. Les deux hommes vaquent sereinement à leurs tâches quotidiennes sous le contrôle de HAL 9000, un ordinateur exceptionnel doué d'intelligence et de parole. Cependant, HAL, sans doute plus humain que ses maîtres, commence à donner des signes d'inquiétude : à quoi rime cette mission et que risque-t-on de découvrir sur Jupiter ?</p></section></section></div>
+    <!--
+      This HTML file is a template.
+      If you open it directly in the browser, you will see an empty page.
+
+      You can add webfonts, meta tags, or analytics to this file.
+      The build step will place the bundled scripts into the <body> tag.
+
+      To begin the development, run `npm start` or `yarn start`.
+      To create a production bundle, use `npm run build` or `yarn build`.
+    -->
+  <script src="./React App_files/bundle.js"></script><script src="./React App_files/0.chunk.js"></script><script src="./React App_files/main.chunk.js"></script><script src="./React App_files/main.0dafb14462c79f457030.hot-update.js"></script>
+
+<span id="buffer-extension-hover-button" style="display: none; position: absolute; z-index: 8675309; width: 100px; height: 25px; background-image: url(&quot;chrome-extension://noojglkidnpfjbincgijbaiedldjfbhh/data/shared/img/buffer-hover-icon@2x.png&quot;); background-size: 100px 25px; opacity: 0.9; cursor: pointer; top: 748.391px; left: 303.469px;"></span></body></html>
